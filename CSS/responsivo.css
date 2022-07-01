@@ -1,0 +1,290 @@
+
+@media screen and (max-width: 850px) {
+   
+   
+    .navbar__navegacao{
+      width: 850px;
+      display: flex;
+      flex-direction: column;
+   
+      
+  
+    }
+  
+    .cavecalho__navegacao___caixa {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      align-items: center;
+    }
+    .navbar__navegacao__itens{
+      display: block;
+      width: 100%;
+      font-size: 1.8rem;
+      text-align: center;
+    }
+    .navbar__container__botoes{
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+      
+    }
+  
+    .link__entrar:hover{
+      width: 112px;
+      padding: 10px 18px;
+      border: 1px solid black;
+      border-radius: 8px;
+      color: var(--brancobase);
+      background-color: var(--botaoVermelho);
+      text-align: center;
+    }
+  
+    .btn__entrar{
+      text-decoration: none;
+      font-family: var(--fontePrincipal);
+      font-weight: 500;
+      font-size: 16px;
+      background-color: none;
+  
+    }
+  
+    #pesquisar{
+      display: none;
+    }
+  .cabecalho{
+      width: 850px;
+  }
+   .cabecalho__caixa{
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      align-items: center;
+   }
+  /*seção de métricas*/
+   .metricas{
+      width: 850px;
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: space-between;
+  
+   }
+  
+   .metricas__caixa{
+      width: 45%;
+      box-sizing: border-box;
+   }
+  .talentos{
+     width: 850px;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+    
+  }
+   .talentos__imagem{
+      max-width: 850px;
+      text-align: center;
+   
+   }
+   .talentos__section{
+      width: 850px;
+   }
+   .depoimentos{
+      width: 850px;
+   }
+  
+   .depoimentos__container{
+      width: 80%;
+   }
+  
+   footer{
+      width: 850px;
+      text-align: center;
+   }
+   footer input{
+      width: 180px;
+      height: 48px;
+      border: 1px solid #D0D5DD;
+      border-radius: 5px;
+  }
+  .footer__copy{
+     display: inline-block;
+     text-align: center;
+  
+  }
+  }
+
+  
+    
+  
+
+  @media screen and (max-width: 620px){
+   
+
+    .logo{
+      width: 300px;
+      margin-top: 10px;
+    }
+
+    .navbar__navegacao__itens{
+      font-size: 2.2rem;
+    }
+
+    .navbar__container__botoes{
+      margin-top: 10px;
+    }
+
+    .link__entrar{
+      font-size: 2.2rem;
+      margin-right: 10px;
+    }
+
+    .cabecalho__caixa{
+      width: 600px;
+      margin: 0 auto;
+    }
+    
+    .cabecalho__sobreNos{
+      font-size: 2rem;
+      text-align: center;
+
+    }
+
+    .cabecalho__titulo{
+      font-size: 3rem;
+      text-align: center;
+      
+    }
+    .cabecalho__textoExplicativo{
+      font-size: 2rem;
+     
+
+    }
+    .metricas{
+     padding-top: 10rem;
+     align-items: center;
+    }
+    .metricas__caixa{
+      width: 70%;
+      margin: 0 auto;
+      
+    }
+    .metricas__span{
+      font-size: 5rem;
+    }
+    .metricas__titulo{
+      font-size: 3rem;
+    }
+    .metricas__paragrafo{
+      font-size: 2.2rem;
+      text-align: center;
+    }
+    .talentos{
+      padding-top: 1000px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+     
+    }
+    .talentos__span{
+      font-size: 2.2rem;
+    }
+
+    .talentos__titulo{
+      font-size: 3rem;
+    }
+    .talentos__paragrafo{
+      font-size: 2rem;
+      padding: 0 5px;
+      text-align: center;
+    }
+    .talentos__imagem{
+      width: 100%;
+    }
+    .talentos__container___design{
+      width: 80%;
+      margin: 0 auto;
+      
+      
+      
+    }
+
+    .talentos__container___desenvolvimento{
+      width: 100%;
+     
+    }
+
+    .informacoes__titulo{
+      font-size: 3rem;
+      margin-top: 10px;
+    }
+    .informacoes__container{
+      width: 80%;
+    }
+    .informacoes__titulo___secundario{
+      font-size: 2.2rem;
+    }
+    #informacoes__span{
+      font-size: 1.8rem;
+      margin: 0 10px 0 0;
+      color: var(--gray500);
+    }
+    .depoimentos__sobre{
+      font-size: 2.2rem;
+      text-align: center;
+      margin: 10px 0;
+    }
+
+    .depoimentos__titulo{
+      font-size: 3rem;
+      
+    }
+    .depoimentos{
+      padding-top: 150px;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .depoimentos__container img{
+      width: 150px;
+      margin: 10px 0;
+    }
+    .depoimentos__nome{
+      font-size: 2rem;
+      margin-top: 10px;
+    }
+
+    .depoimentos__cargo{
+      font-size: 2rem;
+    }
+
+    footer{
+      padding-top: 150px;
+    }
+    .footer__container{
+      width: 80%;
+      margin: 0 auto;
+    }
+    footer h3{
+      font-size: 3rem;
+      
+      }
+      .footer__text{
+         font-size: 2.2rem;
+         margin: 10px 0;
+      }
+
+      .footer__container input{
+         width: 100%
+      }
+        .footer__copy{
+         font-size: 1.8rem;
+         margin-top: 50px;
+         margin-right: 200px;
+        }
+      }
+   
